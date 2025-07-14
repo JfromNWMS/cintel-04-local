@@ -73,7 +73,7 @@ with ui.layout_columns():
 
         @render.data_frame
         def datatable():
-            return render.DataTable(filtered_data(), height="185px")
+            return render.DataTable(filtered_data(), height="270px")
 
     with ui.card(full_screen=True, class_="card-with-shadow"):
 
